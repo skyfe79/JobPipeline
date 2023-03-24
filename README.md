@@ -46,7 +46,7 @@ This will run the AddJob and MulJob in sequence, adding 1 to the input and then 
 To create a custom job, implement the Job interface:
 
 ```ts
-import { Job } from "your-package-name";
+import { Job } from "jobpipeline";
 
 class CustomJob implements Job<InputType, OutputType> {
   name = "CustomJob";
