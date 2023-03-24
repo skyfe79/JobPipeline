@@ -1,6 +1,6 @@
 {
   "name": "jobpipeline",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple serial job pipeline package",
   "main": "dist/jobpipeline.js",
   "types": "dist/jobpipeline.d.ts",
