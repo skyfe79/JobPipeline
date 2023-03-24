@@ -14,8 +14,8 @@ First, import the necessary classes:
 
 ```ts
 import { Pipeline } from "jobpipeline";
-import { AddJob } from "jobpipeline/exampleJobs/AddJob";
-import { MulJob } from "jobpipeline/exampleJobs/MulJob";
+import { AddJob } from "jobpipeline/dist/exampleJobs/AddJob";
+import { MulJob } from "jobpipeline/dist/exampleJobs/MulJob";
 ```
 
 Next, create a new Pipeline instance and add jobs to it:
